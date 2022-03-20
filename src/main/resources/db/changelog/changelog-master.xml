@@ -10,4 +10,6 @@
 
 	<include file="/db/tags/0.0.1/create-table.xml" />
 	<include file="/db/tags/0.0.2/fill-table.xml" />
+	<include file="/db/tags/0.0.3/create-and-fill-table-users.xml" />
+	<include file="/db/tags/0.0.4/create-and-fill-table-authorities.xml" />
 </databaseChangeLog> 

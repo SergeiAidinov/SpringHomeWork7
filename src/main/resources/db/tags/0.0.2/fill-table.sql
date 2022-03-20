@@ -1,3 +1,6 @@
+--liquibase formatted sql
+--changeset sergei:708fe988-35c1-41fc-bc34-21768f359bf9
+
 INSERT INTO products (product_name, price) VALUES
 ('Простой карандаш', 2),
 ('Ручка', 5),
@@ -20,3 +23,5 @@ INSERT INTO products (product_name, price) VALUES
 ('Шило канцелярское', 10),
 ('Транспортир', 6)
 ;
+
+--rollback DROP TABLE products;
