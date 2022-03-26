@@ -12,4 +12,6 @@
 	<include file="/db/tags/0.0.2/fill-table.xml" />
 	<include file="/db/tags/0.0.3/create-and-fill-table-users.xml" />
 	<include file="/db/tags/0.0.4/create-and-fill-table-authorities.xml" />
+	<include file="/db/tags/0.0.5/create-and-fill-table-roles.xml" />
+	<include file="/db/tags/0.0.6/create-and-fill-table-user_role.xml" />
 </databaseChangeLog> 

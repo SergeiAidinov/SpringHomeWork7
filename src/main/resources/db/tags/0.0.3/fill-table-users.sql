@@ -3,7 +3,7 @@
 
 INSERT INTO users
 VALUES
-('Piglet', '{noop}123', 1),
-('Winnie-the-Pooh', '{noop}123', 1);
+('Piglet', '$2a$12$1Souq7N56xS3gRDwjaBGyu9rVjpyHRgqRrDXkrhhPBvnRzVuE9VHW', 1),
+('Winnie-the-Pooh', '$2a$12$jLrjXUF1lca1kBGvdsNc0u9OW.wfujFTQiH1ZqWWgDRKGOffqI/Uq', 1);
 
 --rollback DROP TABLE users;
